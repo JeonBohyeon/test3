@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap" rel="stylesheet">
+    <style>
+        body{
+            font-family: 'Roboto', sans-serif;
+            font-weight: 700;
+            margin: 0;
+            padding: 0;
+        }
+        .Travel{
+            border: 10px solid black;
+            margin: 76px auto 0 auto;
+            height: 60px;
+            width: 380px;
+            text-align: center;
+            font-size: 32px;
+            line-height: 60px;
+            letter-spacing: 0.3em;
+        }
+        .navigation{
+            font-weight: 700;
+            font-size: 18px;
+            text-align: center;
+            line-height: 21px;
+            word-spacing: 20px;
+            margin-top: 52px;
+            margin-bottom: 52px;
+        }
+        a{
+            text-decoration: none;
+        }
+        .Photo{
+            text-align: center;
+            margin-bottom: 94px;
+        }
+    </style>
+</head>
+<body>
+    <div class="Travel">Travel</div>
+    <div class="navigation">
+        <a href="Travel_Home.html"><span style="color: black">Home</span></a>
+        <a href="Travel_Seoul.html"><span style="color: #9a9a9a">Seoul</span></a>
+        <a href="Travel_Hawaii.html"><span style="color: #9a9a9a">Hawaii</span></a>
+        <a href="Travel_HongKong.html"><span style="color:#9a9a9a">Hong-Kong</span></a>
+    </div>
+    <div class="Photo">
+        <img src="https://i.postimg.cc/t4ktNP1C/Kakao-Talk-20230402-153153749.jpg" alt="Home" width="1060" height="707">
+    </div>
+    
+</body>
+</html>
